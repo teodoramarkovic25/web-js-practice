@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Studentski portal - registracija</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Registracija</h1><br><br>
+<form action="" id="form" name="form" method="post">
+    <label for="ime">Ime</label><br>
+    <input type="text" id="ime" name="ime"><br><br>
+    <label for="prezime">Prezime</label><br>
+    <input type="text" id="prezime" name="prezime"><br><br>
+    <label for="korisnickoIme">Korisnicko ime</label><br>
+    <input type="text" id="korisnickoIme" name="korisnickoIme"><br><br>
+    <label for="adresa">Adresa elektronske poste</label><br>
+    <input type="text" id="adresa" name="adresa"><br><br>
+    <div class="lozinka">
+        <div class="bzs">
+            <label for="lozinka">Lozinka</label><br>
+            <input type="password" id="lozinka" name="lozinka"><br><br>
+        </div>
+        <div class="bzs">
+            <label for="potvrdaLozinke">Potvrda lozinke</label><br>
+            <input type="password" id="potvrdaLozinke" name="potvrdaLozinke"><br><br>
+        </div>
+    </div>
+    <label for="brIndeksa">Broj indeksa</label><br>
+    <input type="text" id="brIndeksa" name="brIndeksa"><br><br>
+    <button type="submit" id="registruj" onclick="return provjera()" onchange="return registruj();">Registruj se</button>
+    <button id="prijavi" onclick="prijaviSe()">Prijavi se</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>

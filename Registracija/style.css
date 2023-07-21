@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+form{
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+
+input{
+    border: 2px solid blue;
+    width: 40%;
+    height: 20px;
+}
+
+button{
+    width: 40%;
+    display: inline-block;
+    margin-right: 30px;
+    height: 30px;
+}
+
+#registruj{
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+
+#prijavi{
+    background-color: lawngreen;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lozinka{
+    display: flex;
+}
+
+.bzs #potvrdaLozinke, label[for="potvrdaLozinke"]{
+    margin-left: 60px;
+}
+
+.bzs input[id=lozinka]{
+    width: 120%;
+}
+
+.bzs input[id="potvrdaLozinke"]{
+    width: 90%;
+}
+
+#formPrijava{
+    margin-left: 42%;
+}
+
+p{
+    margin-left: 17%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#prijavaPrijava{
+    background-color: lawngreen;
+    text-align: center;
+    font-weight: bold;
+}
+
+#registrujPrijava{
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+}
